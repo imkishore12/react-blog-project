@@ -764,7 +764,7 @@ html{
     width:100%; 
     height:20%
   }
-  .Hero-Section .poster-1 {
+  /* .Hero-Section .poster-1 {
     grid-column: 1/3;
     grid-row: 1/2;
   }
@@ -778,6 +778,10 @@ html{
   .Hero-Section .poster-3 {
     grid-column: 2/3;
     grid-row: 2/3;
+  } */
+  .Hero-Section{
+    display: flex;
+    flex-direction: column;
   }
   
   /* #navbar .App-Nav-Link */
@@ -1012,7 +1016,7 @@ html{
 }
 .homelatest{
   display:flex;
-  flex-direction: column; 
+ 
   justify-content:space-around;
   align-items: center;
   gap: 20px;
